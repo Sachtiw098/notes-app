@@ -1,0 +1,41 @@
+.example-container, mat-sidenav-container {
+    height: 100%;
+    width: 100%;
+}
+mat-toolbar {
+    justify-content: space-between;
+}
+mat-toolbar button {
+    margin-right: 16px;
+}
+mat-sidenav {
+    width: 300px;
+}
+textarea {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    font: message-box;
+}
+textarea:focus {
+    outline: none;
+}
+.mat-list-base {
+    padding-top: 0px;
+}
+#search-button{
+    width: 150px;
+}
+#search-button button {
+    margin-right: 0;
+}
+/* .mat-divider {
+    border-top-color:white;
+} */
+
+@media only screen and (orientation:portrait) {
+    mat-sidenav {
+        width: 200px;
+    }
+}
